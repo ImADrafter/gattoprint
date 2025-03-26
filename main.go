@@ -15,7 +15,7 @@ import (
 )
 
 var (
-	flagDeviceName = flag.String("printer-name", "GB03", "Name advertised by the printer")
+	flagDeviceName = flag.String("printer-name", "X5h-6DD0", "Name advertised by the printer")
 	flagOutput     = flag.String("output", "output.png", "Output file name, for preview")
 	flagNoPrint    = flag.Bool("no-print", false, "Disable printing, just create the preview")
 )
