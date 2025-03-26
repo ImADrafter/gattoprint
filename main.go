@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/piger/gattoprint/internal/bt"
-	"github.com/piger/gattoprint/internal/commands"
-	"github.com/piger/gattoprint/internal/graphics"
+	"github.com/ImADrafter/gattoprint/internal/bt"
+	"github.com/ImADrafter/gattoprint/internal/commands"
+	"github.com/ImADrafter/gattoprint/internal/graphics"
 
 	"tinygo.org/x/bluetooth"
 )

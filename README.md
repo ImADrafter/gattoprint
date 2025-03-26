@@ -1,5 +1,7 @@
 # gattoprint
 
+> Forked from https://github.com/piger/gattoprint, this is a modified version for the chinesse printer GuKKK Mini
+
 A Go client for the thermal printer knows as "cat printer".
 
 This project implements the "cat printer" protocol in Go and is based on the amazing work
@@ -8,10 +10,15 @@ done by the authors of the projects linked below.
 Bluetooth support is brought by the [Go Bluetooth](https://github.com/tinygo-org/bluetooth) library,
 which is part of the [TinyGo](https://tinygo.org/) project.
 
+Running:
+```
+$ go run main.go <picture>
+```
+
 Installation:
 
 ```
-$ go install github.com/piger/gattoprint@latest
+$ go install github.com/ImADrafter/gattoprint
 ```
 
 ## A word of warning
@@ -24,8 +31,7 @@ damage your printer.
 
 Tested on:
 
-- Debian 11 (Raspbian GNU/Linux 11 (bullseye)) on a Raspberry Pi 4b.
-- macOS Monterey (12.5)
+- macOS Sequoia (15.3.2)
 
 Due to the requirements of the [Go Bluetooth](https://github.com/tinygo-org/bluetooth) library
 cross-compiling this program is not supported, or at least is not as straightforward as it's usually

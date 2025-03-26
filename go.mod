@@ -1,4 +1,4 @@
-module github.com/piger/gattoprint
+module github.com/ImADrafter/gattoprint
 
 go 1.18
 
